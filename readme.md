@@ -94,10 +94,22 @@ Bir dosya açılmış olması gerekiyor. Bu dosya içinde CTRL + F ile User şek
 
 <p>Bunun için bir bash script yazdım wget ile indirerek xampp servislerini başlatmak ve kapatmak daha kolay;</p>
 
+<p> Script'i indiriyoruz </p>
+
 ```sh 
 wget https://raw.githubusercontent.com/secilmiskisi/XAMPPBaslatici/master/xampp.sh
 ```
-Kullanımı hakkında https://github.com/secilmiskisi/XAMPPBaslatici
+<p> Script'imize çalışmasına yetki verip uygulama diye tanımlıyoruz </p>
 
-</p>
+```sh 
+chmod +x ./xampp.sh
+```
+<p> Artık kullanıma hazır! </p>
 
+<p> Kullanmak için komutlar </p>
+
+XAMPP'i başlatmak için ./xampp.sh -b yada ./xampp.sh --basla
+<br>
+XAMPP'i durdurmak için ./xampp.sh -d yada ./xampp.sh --durdur
+<br>
+XAMPP'i tekrar başlatmak için ./xampp.sh -r yada ./xampp.sh --restart
