@@ -1,0 +1,2 @@
+# XAMPPKurulumu
+Ubuntu Linux Kurulumu
